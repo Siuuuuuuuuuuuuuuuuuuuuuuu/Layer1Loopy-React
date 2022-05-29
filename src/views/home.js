@@ -45,7 +45,6 @@ const Home = (props) => {
                   notice to a larger subset of nft enthusiasts the upcoming
                   zkrollup evm upgrades &amp; more
                 </span>
-                <span>also</span>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -73,7 +72,7 @@ const Home = (props) => {
         </div>
         <div className="home-sponsors section-container">
           <div className="home-max-width1 max-content-container">
-            <span className="home-text14">
+            <span className="home-text13">
               <span>LINKS</span>
             </span>
             <div className="home-container01">
@@ -113,8 +112,8 @@ const Home = (props) => {
         <div className="home-speakers section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-heading-container">
-              <span className="home-text16">ERC1155 Minted on lrc</span>
-              <h1 className="home-text17 heading2">
+              <span className="home-text15">ERC1155 Minted on lrc</span>
+              <h1 className="home-text16 heading2">
                 <span>GENESIS LOOPIES</span>
               </h1>
             </div>
@@ -173,11 +172,11 @@ const Home = (props) => {
         <div className="home-numbers-banner section-container">
           <div className="home-container02 max-content-container">
             <div className="home-heading-container1">
-              <span className="home-text19">
+              <span className="home-text18">
                 Our 12-year conference history in sharing digital marketing
                 insights
               </span>
-              <h1 className="home-text20 heading2">
+              <h1 className="home-text19 heading2">
                 <span>market1 SUMMIT IN NUMBERS</span>
               </h1>
             </div>
@@ -225,7 +224,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/whatsapp%20image%202022-05-28%20at%206.22.27%20pm%20%5B2%5D-700w.jpeg"
+              src="/playground_assets/whatsapp%20image%202022-05-29%20at%203.17.41%20pm-400h.jpeg"
               className="home-image08"
             />
             <img
@@ -241,16 +240,16 @@ const Home = (props) => {
           </div>
           <div className="home-content-container1 section-container">
             <div className="home-container04">
-              <span className="home-text22">MoonMAP</span>
-              <span className="home-text23">10% sold</span>
+              <span className="home-text21">MoonMAP</span>
+              <span className="home-text22">10% sold</span>
               <div className="home-container05">
-                <span className="home-text24">
+                <span className="home-text23">
                   <span>— MOON LOunge</span>
                 </span>
               </div>
               <div className="home-container06">
-                <span className="home-text26">beautiful, vibrant berlin</span>
-                <span className="home-text27">
+                <span className="home-text25">beautiful, vibrant berlin</span>
+                <span className="home-text26">
                   <span>
                     A clubhouse of LRC enthusiasts discussing trades &amp; plans
                     for the moon trip
@@ -258,69 +257,70 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <span className="home-text29">25% sold</span>
-            <span className="home-text30">
-              <span>— MOON LOunge</span>
+            <span className="home-text28">25% sold</span>
+            <span className="home-text29">
+              <span>— MERCH</span>
             </span>
             <div className="home-container07">
-              <span className="home-text32">beautiful, vibrant berlin</span>
-              <span className="home-text33">
+              <span className="home-text31">beautiful, vibrant berlin</span>
+              <span className="home-text32">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text35">50% sold</span>
-            <span className="home-text36">
-              <span>— MOON LOunge</span>
+            <span className="home-text34">50% sold</span>
+            <span className="home-text35">
+              <span>— Metal prints</span>
             </span>
             <div className="home-container08">
-              <span className="home-text38">beautiful, vibrant berlin</span>
-              <span className="home-text39">
+              <span className="home-text37">beautiful, vibrant berlin</span>
+              <span className="home-text38">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text41">69% sold</span>
-            <span className="home-text42">
-              <span>— MOON LOunge</span>
+            <span className="home-text40">69% sold</span>
+            <span className="home-text41">
+              <span>— 3D loopys</span>
             </span>
             <div className="home-container09">
-              <span className="home-text44">beautiful, vibrant berlin</span>
-              <span className="home-text45">
+              <span className="home-text43">beautiful, vibrant berlin</span>
+              <span className="home-text44">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text47">75% sold</span>
-            <span className="home-text48">
-              <span>— MOON LOunge</span>
+            <span className="home-text46">75% sold</span>
+            <span className="home-text47">
+              <span>— crypto corner</span>
             </span>
             <div className="home-container10">
-              <span className="home-text50">beautiful, vibrant berlin</span>
-              <span className="home-text51">
+              <span className="home-text49">beautiful, vibrant berlin</span>
+              <span className="home-text50">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text53">100% sold</span>
-            <span className="home-text54">
-              <span>— MOON LOunge</span>
+            <span className="home-text52">100% sold</span>
+            <span className="home-text53">
+              <span>— RED CROSS Charity</span>
             </span>
             <div className="home-container11">
-              <span className="home-text56">beautiful, vibrant berlin</span>
-              <span className="home-text57">
-                <span>
-                  A clubhouse of LRC enthusiasts discussing trades &amp; plans
-                  for the moon trip
-                </span>
+              <span className="home-text55">
+                10% of the funds go to RC Charity
+              </span>
+              <span className="home-text56">
+                <span>About 2-4 eth of the 22-44ETH project</span>
+                <br></br>
+                <span>dep</span>
               </span>
             </div>
           </div>
@@ -328,7 +328,7 @@ const Home = (props) => {
         <div className="home-workshops">
           <div className="home-content-container2">
             <div className="home-container12">
-              <h1 className="home-text59 heading2">
+              <h1 className="home-text60 heading2">
                 <span>
                   register for
                   <span
@@ -338,15 +338,14 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span className="home-text62">super insightful</span>
-                <span>
+                <span className="home-text63">
+                  8 layer
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
-                <br></br>
                 <span>
                   workshops for
                   <span
@@ -358,10 +357,10 @@ const Home = (props) => {
                 <br></br>
                 <span>your team</span>
               </h1>
-              <span className="home-text68">
+              <span className="home-text67">
                 get early discounts and group discounts
               </span>
-              <span className="home-text69">
+              <span className="home-text68">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -380,10 +379,10 @@ const Home = (props) => {
         <div className="home-previous-events section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container2">
-              <h1 className="home-text70 heading2">
+              <h1 className="home-text69 heading2">
                 <span>previous events</span>
               </h1>
-              <span className="home-text72">
+              <span className="home-text71">
                 Take a tour of our previous conferences
               </span>
             </div>
