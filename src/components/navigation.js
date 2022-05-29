@@ -86,7 +86,7 @@ Navigation.defaultProps = {
   image_src1: '/playground_assets/logo-white-1500h.png',
   button2: 'register',
   image_alt2: 'image',
-  image_src3: '8081d73f-cfb3-4751-a0fc-a535e9b4d478',
+  image_src3: '/playground_assets/discord-logo%20%5B2%5D-200h.png',
   image_alt: 'logo',
   image_src2: '/playground_assets/logo1-200h.png',
 }

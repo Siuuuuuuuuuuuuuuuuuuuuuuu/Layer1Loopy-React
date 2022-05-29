@@ -91,7 +91,7 @@
 .home-max-width1 {
   flex-direction: column;
 }
-.home-text10 {
+.home-text14 {
   color: var(--dl-color-scheme-darkgray);
   font-size: 14px;
   font-style: normal;
@@ -147,16 +147,13 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text12 {
+.home-text16 {
   color: var(--dl-color-scheme-darkgray);
   font-style: normal;
   text-align: center;
   font-weight: 500;
 }
-.home-text13 {
-  text-align: center;
-}
-.home-text15 {
+.home-text17 {
   text-align: center;
 }
 .home-speakers-container {
@@ -183,13 +180,13 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text16 {
+.home-text19 {
   color: var(--dl-color-scheme-white);
   font-style: normal;
   text-align: center;
   font-weight: 500;
 }
-.home-text17 {
+.home-text20 {
   color: var(--dl-color-scheme-white);
   text-align: center;
 }
@@ -265,7 +262,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text19 {
+.home-text22 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
@@ -279,7 +276,7 @@
   padding-bottom: 6px;
   background-color: var(--dl-color-scheme-lightblue);
 }
-.home-text20 {
+.home-text23 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
@@ -292,7 +289,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.home-text21 {
+.home-text24 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -309,26 +306,26 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text23 {
+.home-text26 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text24 {
+.home-text27 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
-.home-text26 {
+.home-text29 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.home-text27 {
+.home-text30 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -345,26 +342,26 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text29 {
+.home-text32 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text30 {
+.home-text33 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
-.home-text32 {
+.home-text35 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.home-text33 {
+.home-text36 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -381,26 +378,26 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text35 {
+.home-text38 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text36 {
+.home-text39 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
-.home-text38 {
+.home-text41 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.home-text39 {
+.home-text42 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -417,26 +414,26 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text41 {
+.home-text44 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text42 {
+.home-text45 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
-.home-text44 {
+.home-text47 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.home-text45 {
+.home-text48 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -453,26 +450,26 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text47 {
+.home-text50 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text48 {
+.home-text51 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
-.home-text50 {
+.home-text53 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.home-text51 {
+.home-text54 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -489,14 +486,14 @@
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text53 {
+.home-text56 {
   color: var(--dl-color-scheme-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text54 {
+.home-text57 {
   color: var(--dl-color-scheme-white);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
@@ -523,19 +520,19 @@
   margin-right: 107px;
   flex-direction: column;
 }
-.home-text56 {
+.home-text59 {
   margin-bottom: 42px;
 }
-.home-text59 {
+.home-text62 {
   color: var(--dl-color-scheme-pink);
 }
-.home-text65 {
+.home-text68 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text66 {
+.home-text69 {
   margin-bottom: var(--dl-space-space-threeunits);
   text-transform: none;
 }
@@ -561,10 +558,10 @@
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text67 {
+.home-text70 {
   text-align: center;
 }
-.home-text69 {
+.home-text72 {
   color: var(--dl-color-scheme-darkgray);
   font-style: normal;
   text-align: center;
@@ -753,7 +750,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text19 {
+  .home-text22 {
     margin-left: -24px;
   }
   .home-workshops {

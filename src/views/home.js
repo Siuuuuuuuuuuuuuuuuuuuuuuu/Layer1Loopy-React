@@ -42,12 +42,13 @@ const Home = (props) => {
                 <span>
                   share the cost, security &amp; SPEED benefits of Layer2 with
                   the bigger ethereum community at large &amp; wanna bring to
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  notice to a larger subset of nft enthusiasts the upcoming
+                  zkrollup evm upgrades &amp; more
                 </span>
+                <span>also</span>
+                <span></span>
+                <span></span>
+                <span></span>
               </span>
               <div className="home-btns-container">
                 <button className="home-primary button-primary button-lg button">
@@ -72,7 +73,7 @@ const Home = (props) => {
         </div>
         <div className="home-sponsors section-container">
           <div className="home-max-width1 max-content-container">
-            <span className="home-text10">
+            <span className="home-text14">
               <span>LINKS</span>
             </span>
             <div className="home-container01">
@@ -112,56 +113,58 @@ const Home = (props) => {
         <div className="home-speakers section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-heading-container">
-              <span className="home-text12">
-                16 speakers from 7 countries and 3 continents
-              </span>
-              <h1 className="home-text13 heading2">
-                <span>meet our speakers</span>
-                <span className="home-text15"></span>
+              <span className="home-text16">ERC1155 Minted on lrc</span>
+              <h1 className="home-text17 heading2">
+                <span>GENESIS LOOPIES</span>
               </h1>
             </div>
             <div className="home-speakers-container">
-              <SpeakerCard image_src="fda4d76a-0cb4-4cd6-ba7d-0b9888392c1c"></SpeakerCard>
               <SpeakerCard
-                role="digital marketing associate @ WPP"
-                lastName="Simpson"
-                firstName="Mellisa"
+                image_src="/playground_assets/u0jhmvi44uy811-1500w.jpg"
+                firstName="Hellboi"
+                lastName="loopy"
+                role="too hot for global warming"
+              ></SpeakerCard>
+              <SpeakerCard
+                role="avid consumer of apples"
+                lastName="loopy"
+                firstName="Dr"
                 image_src="/playground_assets/x897ogiekj191-300h.jpg"
               ></SpeakerCard>
               <SpeakerCard
-                role="VP OF Marketing @ BUZZFEED"
-                lastName="tevlenko"
-                firstName="alina"
+                role="cliche detective movie binger"
+                lastName="loopy"
+                firstName="european"
                 image_src="/playground_assets/smoking%20loopy-300h.jpg"
               ></SpeakerCard>
               <SpeakerCard
-                role="HEAD OF DIGITAL @ HUBSPOT"
-                lastName="iprovich"
-                firstName="gregor"
+                role="climbing the ladder 1 rollup at a time"
+                lastName="loopy"
+                firstName="corporate"
                 image_src="/playground_assets/assistant%20to%20the%20regional%20manager%20loopy-300h.jpg"
               ></SpeakerCard>
               <SpeakerCard
-                role="marketing officer @ salesforce"
-                lastName="daris"
-                firstName="damian"
+                role="loves pastry &amp; copypasta"
+                lastName="loopy"
+                firstName="chef"
                 image_src="/playground_assets/800ogycevq191-300h.jpg"
               ></SpeakerCard>
               <SpeakerCard
-                role="social media manager @ vodafone"
-                lastName="warren"
-                firstName="matt"
+                role="timetraveller, rickroller"
+                lastName="loopy"
+                firstName="scientist"
                 image_src="/playground_assets/1cp8ann9h9091-300h.jpg"
               ></SpeakerCard>
               <SpeakerCard
-                role="creative director @ BBDO"
-                lastName="moore"
-                firstName="kathie"
+                role="4 time alpine skier world champ"
+                lastName="loopy"
+                firstName="lindsey"
                 image_src="/playground_assets/whatsapp%20image%202022-05-27%20at%209.49.53%20pm-300h.jpeg"
               ></SpeakerCard>
               <SpeakerCard
-                role="CMO @ youtube Europe"
-                lastName="chan"
-                firstName="erick"
+                role="part-time parkour playa"
+                lastName="loopy"
+                firstName="ninja"
                 image_src="/playground_assets/e1d8goimcm191-300h.jpg"
               ></SpeakerCard>
             </div>
@@ -170,39 +173,39 @@ const Home = (props) => {
         <div className="home-numbers-banner section-container">
           <div className="home-container02 max-content-container">
             <div className="home-heading-container1">
-              <span className="home-text16">
+              <span className="home-text19">
                 Our 12-year conference history in sharing digital marketing
                 insights
               </span>
-              <h1 className="home-text17 heading2">
+              <h1 className="home-text20 heading2">
                 <span>market1 SUMMIT IN NUMBERS</span>
               </h1>
             </div>
             <div className="home-numbers-container">
-              <NumbersCard></NumbersCard>
+              <NumbersCard number="2222" text="loopys"></NumbersCard>
               <NumbersCard
-                text="years"
-                number="12"
+                text="2022"
+                number="6/9"
                 image_src="/playground_assets/interface%20time%20reset-200h.png"
               ></NumbersCard>
               <NumbersCard
-                text="total events"
-                number="64"
+                text="PreSale"
+                number="0.01 ETH"
                 image_src="/playground_assets/interface%20calendar%20favorite-200h.png"
               ></NumbersCard>
               <NumbersCard
-                text="companies"
-                number="15,070"
+                text="PUBLIC SALE"
+                number="0.02 ETH"
                 image_src="/playground_assets/shopping%20bag%20suit%20case-200h.png"
               ></NumbersCard>
               <NumbersCard
-                text="cities"
-                number="14"
+                text="Ethereum"
+                number="2.0"
                 image_src="/playground_assets/travel%20map%20location%20pin-200h.png"
               ></NumbersCard>
               <NumbersCard
-                text="speakers"
-                number="1,071"
+                text="whitelist"
+                number="690"
                 image_src="/playground_assets/computer%20voice%20mail-200h.png"
               ></NumbersCard>
             </div>
@@ -238,16 +241,16 @@ const Home = (props) => {
           </div>
           <div className="home-content-container1 section-container">
             <div className="home-container04">
-              <span className="home-text19">MoonMAP</span>
-              <span className="home-text20">10% sold</span>
+              <span className="home-text22">MoonMAP</span>
+              <span className="home-text23">10% sold</span>
               <div className="home-container05">
-                <span className="home-text21">
+                <span className="home-text24">
                   <span>— MOON LOunge</span>
                 </span>
               </div>
               <div className="home-container06">
-                <span className="home-text23">beautiful, vibrant berlin</span>
-                <span className="home-text24">
+                <span className="home-text26">beautiful, vibrant berlin</span>
+                <span className="home-text27">
                   <span>
                     A clubhouse of LRC enthusiasts discussing trades &amp; plans
                     for the moon trip
@@ -255,65 +258,65 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <span className="home-text26">25% sold</span>
-            <span className="home-text27">
+            <span className="home-text29">25% sold</span>
+            <span className="home-text30">
               <span>— MOON LOunge</span>
             </span>
             <div className="home-container07">
-              <span className="home-text29">beautiful, vibrant berlin</span>
-              <span className="home-text30">
+              <span className="home-text32">beautiful, vibrant berlin</span>
+              <span className="home-text33">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text32">50% sold</span>
-            <span className="home-text33">
+            <span className="home-text35">50% sold</span>
+            <span className="home-text36">
               <span>— MOON LOunge</span>
             </span>
             <div className="home-container08">
-              <span className="home-text35">beautiful, vibrant berlin</span>
-              <span className="home-text36">
+              <span className="home-text38">beautiful, vibrant berlin</span>
+              <span className="home-text39">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text38">69% sold</span>
-            <span className="home-text39">
+            <span className="home-text41">69% sold</span>
+            <span className="home-text42">
               <span>— MOON LOunge</span>
             </span>
             <div className="home-container09">
-              <span className="home-text41">beautiful, vibrant berlin</span>
-              <span className="home-text42">
+              <span className="home-text44">beautiful, vibrant berlin</span>
+              <span className="home-text45">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text44">75% sold</span>
-            <span className="home-text45">
+            <span className="home-text47">75% sold</span>
+            <span className="home-text48">
               <span>— MOON LOunge</span>
             </span>
             <div className="home-container10">
-              <span className="home-text47">beautiful, vibrant berlin</span>
-              <span className="home-text48">
+              <span className="home-text50">beautiful, vibrant berlin</span>
+              <span className="home-text51">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text50">100% sold</span>
-            <span className="home-text51">
+            <span className="home-text53">100% sold</span>
+            <span className="home-text54">
               <span>— MOON LOunge</span>
             </span>
             <div className="home-container11">
-              <span className="home-text53">beautiful, vibrant berlin</span>
-              <span className="home-text54">
+              <span className="home-text56">beautiful, vibrant berlin</span>
+              <span className="home-text57">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
@@ -325,7 +328,7 @@ const Home = (props) => {
         <div className="home-workshops">
           <div className="home-content-container2">
             <div className="home-container12">
-              <h1 className="home-text56 heading2">
+              <h1 className="home-text59 heading2">
                 <span>
                   register for
                   <span
@@ -335,7 +338,7 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span className="home-text59">super insightful</span>
+                <span className="home-text62">super insightful</span>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -355,10 +358,10 @@ const Home = (props) => {
                 <br></br>
                 <span>your team</span>
               </h1>
-              <span className="home-text65">
+              <span className="home-text68">
                 get early discounts and group discounts
               </span>
-              <span className="home-text66">
+              <span className="home-text69">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -377,10 +380,10 @@ const Home = (props) => {
         <div className="home-previous-events section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container2">
-              <h1 className="home-text67 heading2">
+              <h1 className="home-text70 heading2">
                 <span>previous events</span>
               </h1>
-              <span className="home-text69">
+              <span className="home-text72">
                 Take a tour of our previous conferences
               </span>
             </div>
