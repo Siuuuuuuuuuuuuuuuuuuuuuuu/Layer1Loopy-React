@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 import Navigation from '../components/navigation'
 import SpeakerCard from '../components/speaker-card'
 import NumbersCard from '../components/numbers-card'
-import EventCard from '../components/event-card'
 import Slide from '../components/slide'
 import Footer from '../components/footer'
 import './home.css'
@@ -32,9 +31,23 @@ const Home = (props) => {
                 <span></span>
               </h1>
               <span className="home-text07">
-                <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
-                <br></br>
-                <span>HURRY UP, LIMITED NUMBERS AVAILABLE.</span>
+                <span>
+                  A community of loopring enthusiasts who wanna
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  share the cost, security &amp; SPEED benefits of Layer2 with
+                  the bigger ethereum community at large &amp; wanna bring to
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </span>
               <div className="home-btns-container">
                 <button className="home-primary button-primary button-lg button">
@@ -50,8 +63,7 @@ const Home = (props) => {
                 src
                 muted="true"
                 poster="/playground_assets/webp.net-gifmaker%20%5B8%5D-1200w.gif"
-                autoPlay="true"
-                controls="true"
+                autoPlay
                 className="home-video"
               ></video>
             </div>
@@ -310,69 +322,10 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-agenda section-container">
-          <div className="home-max-width3 max-content-container">
-            <div className="home-heading-container2">
-              <h1 className="home-text56 heading2">
-                <span>ROADMAP</span>
-              </h1>
-              <span className="home-text58">
-                more announcements are coming soon
-              </span>
-            </div>
-            <div className="home-events-container">
-              <div className="home-column">
-                <div className="home-column-header">
-                  <span className="home-text59">
-                    <span>tuesday - 7.03</span>
-                  </span>
-                  <div className="home-line"></div>
-                </div>
-                <EventCard></EventCard>
-                <EventCard
-                  title="tik tok or what?"
-                  image_src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHBlb3BsZXxlbnwwfHx8fDE2NDM3MDU1MTE&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-                <EventCard
-                  title="sales + marketing duo"
-                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBlb3BsZXxlbnwwfHx8fDE2NDM3MDU1MTE&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-                <EventCard
-                  title="best practices for more\ndata-driven results"
-                  image_src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxwZW9wbGV8ZW58MHx8fHwxNjQzNzA1NTEx&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-              </div>
-              <div className="home-column1">
-                <div className="home-column-header1">
-                  <span className="home-text61">
-                    <span>wednesday - 8.03</span>
-                  </span>
-                  <div className="home-line1"></div>
-                </div>
-                <EventCard
-                  title="digital marketing strategies"
-                  image_src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwZW9wbGV8ZW58MHx8fHwxNjQzNzA1NTEx&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-                <EventCard
-                  title="a new era of social media"
-                  image_src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0N3x8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY5MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-                <EventCard
-                  title="growing a remote team"
-                  image_src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2OHx8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY5MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-                <EventCard
-                  title="beyond the metaverse"
-                  image_src="https://images.unsplash.com/photo-1558222218-b7b54eede3f3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwNHx8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY4MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-                ></EventCard>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="home-workshops">
           <div className="home-content-container2">
             <div className="home-container12">
-              <h1 className="home-text63 heading2">
+              <h1 className="home-text56 heading2">
                 <span>
                   register for
                   <span
@@ -382,7 +335,7 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span className="home-text66">super insightful</span>
+                <span className="home-text59">super insightful</span>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -402,10 +355,10 @@ const Home = (props) => {
                 <br></br>
                 <span>your team</span>
               </h1>
-              <span className="home-text72">
+              <span className="home-text65">
                 get early discounts and group discounts
               </span>
-              <span className="home-text73">
+              <span className="home-text66">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -417,17 +370,17 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxidXNpbmVzc3xlbnwwfHx8fDE2NDM3MzQ3MjI&amp;ixlib=rb-1.2.1&amp;w=1500"
+            src="/playground_assets/u0jhmvi44uy811-1500w.jpg"
             className="home-image11"
           />
         </div>
         <div className="home-previous-events section-container">
-          <div className="home-max-width4 max-content-container">
-            <div className="home-heading-container3">
-              <h1 className="home-text74 heading2">
+          <div className="home-max-width3 max-content-container">
+            <div className="home-heading-container2">
+              <h1 className="home-text67 heading2">
                 <span>previous events</span>
               </h1>
-              <span className="home-text76">
+              <span className="home-text69">
                 Take a tour of our previous conferences
               </span>
             </div>

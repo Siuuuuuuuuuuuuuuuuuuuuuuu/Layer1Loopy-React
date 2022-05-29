@@ -16,13 +16,13 @@ const Navigation = (props) => {
         />
         <div className="navigation-nav">
           <img
-            alt={props.image_alt2}
-            src={props.image_src2}
+            alt={props.image_alt3}
+            src={props.image_src3}
             className="navigation-image1"
           />
           <img
-            alt={props.image_alt3}
-            src={props.image_src3}
+            alt={props.image_alt2}
+            src={props.image_src2}
             className="navigation-image2"
           />
           <button className="navigation-register button-primary button button-md">
@@ -86,8 +86,7 @@ Navigation.defaultProps = {
   image_src1: '/playground_assets/logo-white-1500h.png',
   button2: 'register',
   image_alt2: 'image',
-  image_src3:
-    '/playground_assets/concours-discord-cartes-voeux-fortnite-france-6-200h.png',
+  image_src3: '8081d73f-cfb3-4751-a0fc-a535e9b4d478',
   image_alt: 'logo',
   image_src2: '/playground_assets/logo1-200h.png',
 }
