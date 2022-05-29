@@ -45,9 +45,6 @@ const Home = (props) => {
                   notice to a larger subset of nft enthusiasts the upcoming
                   zkrollup evm upgrades &amp; more
                 </span>
-                <span></span>
-                <span></span>
-                <span></span>
               </span>
               <div className="home-btns-container">
                 <button className="home-primary button-primary button-lg button">
@@ -72,7 +69,7 @@ const Home = (props) => {
         </div>
         <div className="home-sponsors section-container">
           <div className="home-max-width1 max-content-container">
-            <span className="home-text13">
+            <span className="home-text10">
               <span>LINKS</span>
             </span>
             <div className="home-container01">
@@ -112,17 +109,17 @@ const Home = (props) => {
         <div className="home-speakers section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-heading-container">
-              <span className="home-text15">ERC1155 Minted on lrc</span>
-              <h1 className="home-text16 heading2">
+              <span className="home-text12">ERC1155 Minted on lrc</span>
+              <h1 className="home-text13 heading2">
                 <span>GENESIS LOOPIES</span>
               </h1>
             </div>
             <div className="home-speakers-container">
               <SpeakerCard
-                image_src="/playground_assets/u0jhmvi44uy811-1500w.jpg"
-                firstName="Hellboi"
-                lastName="loopy"
                 role="too hot for global warming"
+                lastName="loopy"
+                firstName="Hellboi"
+                image_src="/playground_assets/u0jhmvi44uy811-1500w.jpg"
               ></SpeakerCard>
               <SpeakerCard
                 role="avid consumer of apples"
@@ -172,16 +169,16 @@ const Home = (props) => {
         <div className="home-numbers-banner section-container">
           <div className="home-container02 max-content-container">
             <div className="home-heading-container1">
-              <span className="home-text18">
+              <span className="home-text15">
                 Our 12-year conference history in sharing digital marketing
                 insights
               </span>
-              <h1 className="home-text19 heading2">
+              <h1 className="home-text16 heading2">
                 <span>market1 SUMMIT IN NUMBERS</span>
               </h1>
             </div>
             <div className="home-numbers-container">
-              <NumbersCard number="2222" text="loopys"></NumbersCard>
+              <NumbersCard text="loopys" number="2222"></NumbersCard>
               <NumbersCard
                 text="2022"
                 number="6/9"
@@ -240,16 +237,16 @@ const Home = (props) => {
           </div>
           <div className="home-content-container1 section-container">
             <div className="home-container04">
-              <span className="home-text21">MoonMAP</span>
-              <span className="home-text22">10% sold</span>
+              <span className="home-text18">MoonMAP</span>
+              <span className="home-text19">10% sold</span>
               <div className="home-container05">
-                <span className="home-text23">
+                <span className="home-text20">
                   <span>— MOON LOunge</span>
                 </span>
               </div>
               <div className="home-container06">
-                <span className="home-text25">beautiful, vibrant berlin</span>
-                <span className="home-text26">
+                <span className="home-text22">From moon to uranus</span>
+                <span className="home-text23">
                   <span>
                     A clubhouse of LRC enthusiasts discussing trades &amp; plans
                     for the moon trip
@@ -257,70 +254,79 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <span className="home-text28">25% sold</span>
-            <span className="home-text29">
+            <span className="home-text25">25% sold</span>
+            <span className="home-text26">
               <span>— MERCH</span>
             </span>
             <div className="home-container07">
-              <span className="home-text31">beautiful, vibrant berlin</span>
-              <span className="home-text32">
-                <span>
-                  A clubhouse of LRC enthusiasts discussing trades &amp; plans
-                  for the moon trip
-                </span>
+              <span className="home-text28">
+                teeing of a few lrc underpants
+              </span>
+              <span className="home-text29">
+                <span>Feel the strength of rocket</span>
               </span>
             </div>
-            <span className="home-text34">50% sold</span>
-            <span className="home-text35">
+            <span className="home-text31">50% sold</span>
+            <span className="home-text32">
               <span>— Metal prints</span>
             </span>
             <div className="home-container08">
-              <span className="home-text37">beautiful, vibrant berlin</span>
-              <span className="home-text38">
+              <span className="home-text34">
+                Feels like coconut &amp; metal
+              </span>
+              <span className="home-text35">
                 <span>
                   A clubhouse of LRC enthusiasts discussing trades &amp; plans
                   for the moon trip
                 </span>
               </span>
             </div>
-            <span className="home-text40">69% sold</span>
-            <span className="home-text41">
+            <span className="home-text37">69% sold</span>
+            <span className="home-text38">
               <span>— 3D loopys</span>
             </span>
             <div className="home-container09">
-              <span className="home-text43">beautiful, vibrant berlin</span>
-              <span className="home-text44">
+              <span className="home-text40">beautiful, vibrant berlin</span>
+              <span className="home-text41">
                 <span>
-                  A clubhouse of LRC enthusiasts discussing trades &amp; plans
-                  for the moon trip
+                  made of food grade silicone, the 3d loopys will be available
+                  to each &amp; every HODLer a 3d file &amp; a droplist of 69
+                  prints from the house via raffles, giveaways &amp; challenges
+                  to our community
                 </span>
               </span>
             </div>
-            <span className="home-text46">75% sold</span>
-            <span className="home-text47">
+            <span className="home-text43">75% sold</span>
+            <span className="home-text44">
               <span>— crypto corner</span>
             </span>
             <div className="home-container10">
-              <span className="home-text49">beautiful, vibrant berlin</span>
-              <span className="home-text50">
-                <span>
-                  A clubhouse of LRC enthusiasts discussing trades &amp; plans
-                  for the moon trip
-                </span>
+              <span className="home-text46">beautiful, vibrant berlin</span>
+              <span className="home-text47">
+                Betting on the best &amp;
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
             </div>
-            <span className="home-text52">100% sold</span>
-            <span className="home-text53">
+            <span className="home-text48">100% sold</span>
+            <span className="home-text49">
               <span>— RED CROSS Charity</span>
             </span>
             <div className="home-container11">
-              <span className="home-text55">
+              <span className="home-text51">
                 10% of the funds go to RC Charity
               </span>
-              <span className="home-text56">
+              <span className="home-text52">
                 <span>About 2-4 eth of the 22-44ETH project</span>
                 <br></br>
-                <span>dep</span>
+                <span>depending on the whitelist to public mint ratio</span>
+                <br></br>
+                <span></span>
+                <br></br>
+                <span>Announcement of the 2nd stage of Loopy UranusMap</span>
               </span>
             </div>
           </div>
@@ -329,14 +335,7 @@ const Home = (props) => {
           <div className="home-content-container2">
             <div className="home-container12">
               <h1 className="home-text60 heading2">
-                <span>
-                  register for
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span>Variants of</span>
                 <br></br>
                 <span className="home-text63">
                   8 layer
@@ -361,12 +360,13 @@ const Home = (props) => {
                 get early discounts and group discounts
               </span>
               <span className="home-text68">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                A generative project based off of 69 layers making more than a
+                million combos with 6traits form the backbone or rather the
+                frontend of our LRC official token&apos;s mutated brethren from
+                another cavern
               </span>
               <button className="button button-md button-outline">
-                learn more
+                SHOW more
               </button>
             </div>
           </div>
