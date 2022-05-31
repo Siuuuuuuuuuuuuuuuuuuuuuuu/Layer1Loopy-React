@@ -263,7 +263,7 @@ const Home = (props) => {
                 teeing of a few lrc underpants
               </span>
               <span className="home-text29">
-                <span>Feel the strength of rocket</span>
+                <span>&amp; a few layer 2s above those</span>
               </span>
             </div>
             <span className="home-text31">50% sold</span>
@@ -275,19 +275,16 @@ const Home = (props) => {
                 Feels like coconut &amp; metal
               </span>
               <span className="home-text35">
-                <span>
-                  A clubhouse of LRC enthusiasts discussing trades &amp; plans
-                  for the moon trip
-                </span>
+                50 metal prints will be shipped to our lucky HODLers
               </span>
             </div>
-            <span className="home-text37">69% sold</span>
-            <span className="home-text38">
+            <span className="home-text36">69% sold</span>
+            <span className="home-text37">
               <span>— 3D loopys</span>
             </span>
             <div className="home-container09">
-              <span className="home-text40">beautiful, vibrant berlin</span>
-              <span className="home-text41">
+              <span className="home-text39">beautiful, vibrant berlin</span>
+              <span className="home-text40">
                 <span>
                   made of food grade silicone, the 3d loopys will be available
                   to each &amp; every HODLer a 3d file &amp; a droplist of 69
@@ -296,30 +293,26 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <span className="home-text43">75% sold</span>
-            <span className="home-text44">
+            <span className="home-text42">75% sold</span>
+            <span className="home-text43">
               <span>— crypto corner</span>
             </span>
             <div className="home-container10">
-              <span className="home-text46">beautiful, vibrant berlin</span>
-              <span className="home-text47">
-                Betting on the best &amp;
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+              <span className="home-text45">beautiful, vibrant berlin</span>
+              <span className="home-text46">
+                Betting on the best &amp; brightest projects with a 20% mint
+                funds community wallet
               </span>
             </div>
-            <span className="home-text48">100% sold</span>
-            <span className="home-text49">
+            <span className="home-text47">100% sold</span>
+            <span className="home-text48">
               <span>— RED CROSS Charity</span>
             </span>
             <div className="home-container11">
-              <span className="home-text51">
+              <span className="home-text50">
                 10% of the funds go to RC Charity
               </span>
-              <span className="home-text52">
+              <span className="home-text51">
                 <span>About 2-4 eth of the 22-44ETH project</span>
                 <br></br>
                 <span>depending on the whitelist to public mint ratio</span>
@@ -334,39 +327,38 @@ const Home = (props) => {
         <div className="home-workshops">
           <div className="home-content-container2">
             <div className="home-container12">
-              <h1 className="home-text60 heading2">
-                <span>Variants of</span>
-                <br></br>
-                <span className="home-text63">
-                  8 layer
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+              <h1 className="home-text59 heading2">
                 <span>
-                  workshops for
+                  LAYER2
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
-                <br></br>
-                <span>your team</span>
+                <span className="home-text61">BENEFITs</span>
               </h1>
-              <span className="home-text67">
-                get early discounts and group discounts
+              <span className="home-text62">
+                LAyer1 Loopys will get a Partner Loopy that they can claim as
+                soon as zkrollup evm upgrade occurs
               </span>
-              <span className="home-text68">
-                A generative project based off of 69 layers making more than a
-                million combos with 6traits form the backbone or rather the
-                frontend of our LRC official token&apos;s mutated brethren from
-                another cavern
+              <span className="home-text63">
+                Free mint for all Loopy HOLDers to get a LRC Loopy
+              </span>
+              <span className="home-text64">
+                LAyer1 Loopys will get to mint an ape at a reduced price
+              </span>
+              <span className="home-text65">
+                Autmoatic Whitelist for all Loopy HOLDers for the LRC Ape
+                Project. One Ape/wallet
+              </span>
+              <span className="home-text66">Added utility to the loopys</span>
+              <span className="home-text67">
+                &apos;We&apos;ll strive to add multimedia experience &amp; add
+                the metaverse, rich media &amp; gaming aspects to our NFTs
               </span>
               <button className="button button-md button-outline">
-                SHOW more
+                Coming Soon
               </button>
             </div>
           </div>
@@ -379,11 +371,12 @@ const Home = (props) => {
         <div className="home-previous-events section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container2">
-              <h1 className="home-text69 heading2">
-                <span>previous events</span>
+              <h1 className="home-text68 heading2">
+                <span>SneakpeeK</span>
               </h1>
-              <span className="home-text71">
-                Take a tour of our previous conferences
+              <span className="home-text70">
+                We&apos;ll be updating any news and upcoming project ideas here
+                time to time
               </span>
             </div>
           </div>
