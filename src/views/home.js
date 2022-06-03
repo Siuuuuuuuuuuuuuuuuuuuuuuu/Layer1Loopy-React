@@ -14,7 +14,19 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>Layer1Loopy</title>
+        <meta
+          name="description"
+          content="A  👩‍🚀👨‍🎤community of LRC lovers who share the cost💵, security🔐&amp; speed🚄 benefits of layer2 with nft fans &amp; the upcoming zkrollup🗞️ evm upgrades &amp; more🚀"
+        />
         <meta property="og:title" content="Layer1Loopy" />
+        <meta
+          property="og:description"
+          content="A  👩‍🚀👨‍🎤community of LRC lovers who share the cost💵, security🔐&amp; speed🚄 benefits of layer2 with nft fans &amp; the upcoming zkrollup🗞️ evm upgrades &amp; more🚀"
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/e6f12f53-d97d-4312-be50-83f6b12a0abc/270dbd06-962f-42a5-9b02-2e5dd3930547?org_if_sml=1"
+        />
       </Helmet>
       <Navigation></Navigation>
       <main className="home-main">
