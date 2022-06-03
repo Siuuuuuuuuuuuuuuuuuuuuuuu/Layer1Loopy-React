@@ -40,6 +40,7 @@
 .footer-register-now {
   color: var(--dl-color-scheme-darkblue);
   margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
   background-color: var(--dl-color-scheme-white);
 }
 .footer-register-now:hover {
@@ -49,6 +50,7 @@
 .footer-contact-us {
   color: var(--dl-color-scheme-white);
   border-color: var(--dl-color-scheme-white);
+  text-decoration: none;
 }
 .footer-contact-us:hover {
   color: var(--dl-color-scheme-white);

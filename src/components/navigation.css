@@ -29,17 +29,26 @@
   flex-direction: row;
   background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgba(134, 172, 210, 0.69) 100.00%);
 }
+.navigation-link {
+  display: contents;
+}
 .navigation-image1 {
   width: 100px;
   object-fit: cover;
+  text-decoration: none;
+}
+.navigation-link1 {
+  display: contents;
 }
 .navigation-image2 {
   width: 100px;
   object-fit: cover;
+  text-decoration: none;
 }
 .navigation-register {
   color: var(--dl-color-scheme-darkblue);
   margin-left: 41px;
+  text-decoration: none;
   background-color: var(--dl-color-scheme-white);
 }
 .navigation-register:hover {

@@ -22,12 +22,22 @@ const Footer = (props) => {
             </span>
           </span>
           <div className="footer-btns-container">
-            <button className="footer-register-now button-primary button-lg button">
+            <a
+              href="https://discord.gg/YeD2A9vR"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="footer-register-now button-primary button-lg button"
+            >
               DISCORD
-            </button>
-            <button className="footer-contact-us button button-outline button-lg-border">
+            </a>
+            <a
+              href="https://discord.gg/YeD2A9vR"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="footer-contact-us button button-outline button-lg-border"
+            >
               TWITTER
-            </button>
+            </a>
           </div>
         </div>
         <div className="footer-copyright">

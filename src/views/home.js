@@ -50,9 +50,14 @@ const Home = (props) => {
                 <button className="home-primary button-primary button-lg button">
                   PRESALE (coming soon)
                 </button>
-                <button className="button button-outline button-lg-border">
+                <a
+                  href="https://discord.gg/YeD2A9vR"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-secondary button button-outline button-lg-border"
+                >
                   DISCORD
-                </button>
+                </a>
               </div>
             </div>
             <div className="home-video-container">
@@ -73,36 +78,78 @@ const Home = (props) => {
               <span>LINKS</span>
             </span>
             <div className="home-container01">
-              <img
-                alt="image"
-                src="/playground_assets/raritytools-1200w.png"
-                className="home-image"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/download%20%5B59%5D-1200w.png"
-                className="home-image01"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/discord-logo%20%5B1%5D-1200w.png"
-                className="home-image02"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/logo1-1200w.png"
-                className="home-image03"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/nftcalendar-logo-1200w.webp"
-                className="home-image04"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/1_pgz8icshpzk8kf4d2jiteg-1200w.png"
-                className="home-image05"
-              />
+              <a
+                href="https://rarity.tools/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/raritytools-1200w.png"
+                  className="home-image"
+                />
+              </a>
+              <a
+                href="https://raritysniper.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link1"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/download%20%5B59%5D-1200w.png"
+                  className="home-image01"
+                />
+              </a>
+              <a
+                href="https://discord.gg/YeD2A9vR"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link2"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/discord-logo%20%5B1%5D-1200w.png"
+                  className="home-image02"
+                />
+              </a>
+              <a
+                href="https://discord.gg/YeD2A9vR"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link3"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/logo1-1200w.png"
+                  className="home-image03"
+                />
+              </a>
+              <a
+                href="https://nftcalendar.io/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link4"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/nftcalendar-logo-1200w.webp"
+                  className="home-image04"
+                />
+              </a>
+              <a
+                href="https://opensea.io/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link5"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/1_pgz8icshpzk8kf4d2jiteg-1200w.png"
+                  className="home-image05"
+                />
+              </a>
             </div>
           </div>
         </div>

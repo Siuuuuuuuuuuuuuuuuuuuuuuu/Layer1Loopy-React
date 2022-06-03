@@ -15,19 +15,38 @@ const Navigation = (props) => {
           className="navigation-image"
         />
         <div className="navigation-nav">
-          <img
-            alt={props.image_alt3}
-            src={props.image_src3}
-            className="navigation-image1"
-          />
-          <img
-            alt={props.image_alt2}
-            src={props.image_src2}
-            className="navigation-image2"
-          />
-          <button className="navigation-register button-primary button button-md">
+          <a
+            href="https://discord.gg/YeD2A9vR"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="navigation-link"
+          >
+            <img
+              alt={props.image_alt3}
+              src={props.image_src3}
+              className="navigation-image1"
+            />
+          </a>
+          <a
+            href="https://discord.gg/YeD2A9vR"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="navigation-link1"
+          >
+            <img
+              alt={props.image_alt2}
+              src={props.image_src2}
+              className="navigation-image2"
+            />
+          </a>
+          <a
+            href="https://discord.gg/YeD2A9vR"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="navigation-register button-primary button button-md"
+          >
             {props.button2}
-          </button>
+          </a>
         </div>
         <div data-type="BurgerMenu" className="navigation-burger-menu">
           <svg viewBox="0 0 1024 1024" className="navigation-icon">
