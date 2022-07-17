@@ -16,7 +16,7 @@ const Navigation = (props) => {
         />
         <div className="navigation-nav">
           <a
-            href="https://discord.gg/YeD2A9vR"
+            href="https://discord.gg/TJEreEYAW2"
             target="_blank"
             rel="noreferrer noopener"
             className="navigation-link"
@@ -28,7 +28,7 @@ const Navigation = (props) => {
             />
           </a>
           <a
-            href="https://discord.gg/YeD2A9vR"
+            href="https://twitter.com/Layer1Loopy"
             target="_blank"
             rel="noreferrer noopener"
             className="navigation-link1"

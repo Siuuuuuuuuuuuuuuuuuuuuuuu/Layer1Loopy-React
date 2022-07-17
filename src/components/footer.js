@@ -23,7 +23,7 @@ const Footer = (props) => {
           </span>
           <div className="footer-btns-container">
             <a
-              href="https://discord.gg/YeD2A9vR"
+              href="https://discord.gg/TJEreEYAW2"
               target="_blank"
               rel="noreferrer noopener"
               className="footer-register-now button-primary button-lg button"
@@ -31,7 +31,7 @@ const Footer = (props) => {
               DISCORD
             </a>
             <a
-              href="https://discord.gg/YeD2A9vR"
+              href="https://twitter.com/Layer1Loopy"
               target="_blank"
               rel="noreferrer noopener"
               className="footer-contact-us button button-outline button-lg-border"

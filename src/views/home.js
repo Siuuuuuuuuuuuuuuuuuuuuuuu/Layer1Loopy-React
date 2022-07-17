@@ -115,7 +115,7 @@ const Home = (props) => {
                 />
               </a>
               <a
-                href="https://discord.gg/YeD2A9vR"
+                href="https://discord.gg/TJEreEYAW2"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link2"
@@ -127,7 +127,7 @@ const Home = (props) => {
                 />
               </a>
               <a
-                href="https://discord.gg/YeD2A9vR"
+                href="https://twitter.com/Layer1Loopy"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link3"
@@ -240,7 +240,7 @@ const Home = (props) => {
               <NumbersCard text="loopys" number="2222"></NumbersCard>
               <NumbersCard
                 text="2022"
-                number="6/9"
+                number="soon"
                 image_src="/playground_assets/interface%20time%20reset-200h.png"
               ></NumbersCard>
               <NumbersCard
@@ -457,18 +457,6 @@ const Home = (props) => {
               heading="Slide #5"
               rootClassName="slide-root-class-name2"
             ></Slide>
-          </div>
-          <div className="home-slider-controls">
-            <div data-action="previousSlide" className="home-go-left">
-              <svg viewBox="0 0 1024 1024" className="home-icon">
-                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
-              </svg>
-            </div>
-            <div data-action="nextSlide" className="home-go-right">
-              <svg viewBox="0 0 1024 1024" className="home-icon2">
-                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
-              </svg>
-            </div>
           </div>
         </div>
       </main>
