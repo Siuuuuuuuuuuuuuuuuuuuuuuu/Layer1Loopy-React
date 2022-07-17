@@ -6,6 +6,7 @@ import Navigation from '../components/navigation'
 import SpeakerCard from '../components/speaker-card'
 import NumbersCard from '../components/numbers-card'
 import Slide from '../components/slide'
+import GalleryCard11 from '../components/gallery-card11'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -460,6 +461,40 @@ const Home = (props) => {
           </div>
         </div>
       </main>
+      <h1 className="home-text71 heading2">
+        <span>
+          Team
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </span>
+        <span className="home-text73">Talk</span>
+      </h1>
+      <div className="home-gallery">
+        <GalleryCard11
+          rootClassName="rootClassName"
+          image_src="/playground_assets/loopyhammer-1500h.jpeg"
+          subtitle="Artisan Ape - Layer2 lover"
+          title="LoopKnight"
+        ></GalleryCard11>
+        <GalleryCard11
+          image_src="/playground_assets/butch-1500h.png"
+          rootClassName="rootClassName1"
+          subtitle="Crypto maxi &amp; Solidity savant"
+          title="Butch"
+        ></GalleryCard11>
+        <GalleryCard11
+          image_src="/playground_assets/tpr-1500h.png"
+          rootClassName="rootClassName2"
+          title="TPR"
+          subtitle="Project memeing &amp; marketing head"
+        ></GalleryCard11>
+      </div>
+      <h1 className="home-text74 heading2">
+        <span>__________</span>
+      </h1>
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
   )
