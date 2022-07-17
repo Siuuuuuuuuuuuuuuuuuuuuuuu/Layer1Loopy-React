@@ -5,8 +5,7 @@ import { Helmet } from 'react-helmet'
 import Navigation from '../components/navigation'
 import SpeakerCard from '../components/speaker-card'
 import NumbersCard from '../components/numbers-card'
-import Slide from '../components/slide'
-import GalleryCard11 from '../components/gallery-card11'
+import GalleryCard12 from '../components/gallery-card12'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -185,13 +184,13 @@ const Home = (props) => {
                 role="avid consumer of apples"
                 lastName="loopy"
                 firstName="Dr"
-                image_src="/playground_assets/x897ogiekj191-300h.jpg"
+                image_src="/playground_assets/x897ogiekj191-500h.jpg"
               ></SpeakerCard>
               <SpeakerCard
                 role="cliche detective movie binger"
                 lastName="loopy"
                 firstName="european"
-                image_src="/playground_assets/smoking%20loopy-300h.jpg"
+                image_src="/playground_assets/smoking%20loopy-500h.jpg"
               ></SpeakerCard>
               <SpeakerCard
                 role="climbing the ladder 1 rollup at a time"
@@ -441,59 +440,122 @@ const Home = (props) => {
             </div>
           </div>
           <div data-type="slider" className="home-slider">
-            <Slide rootClassName="slide-root-class-name4"></Slide>
-            <Slide
-              heading="Slide #2"
-              rootClassName="slide-root-class-name1"
-            ></Slide>
-            <Slide
-              heading="Slide #3"
-              rootClassName="slide-root-class-name"
-            ></Slide>
-            <Slide
-              heading="Slide #4"
-              rootClassName="slide-root-class-name3"
-            ></Slide>
-            <Slide
-              heading="Slide #5"
-              rootClassName="slide-root-class-name2"
-            ></Slide>
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm15-500h.jpeg"
+              alt="image"
+              className="home-image12"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm-500h.jpeg"
+              alt="image"
+              className="home-image13"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm10-500h.jpeg"
+              alt="image"
+              className="home-image14"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm11-500h.jpeg"
+              alt="image"
+              className="home-image15"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm12-500h.jpeg"
+              alt="image"
+              className="home-image16"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm13-500h.jpeg"
+              alt="image"
+              className="home-image17"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm14-500h.jpeg"
+              alt="image"
+              className="home-image18"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm4-500h.jpeg"
+              alt="image"
+              className="home-image19"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm5-500h.jpeg"
+              alt="image"
+              className="home-image20"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm6-500h.jpeg"
+              alt="image"
+              className="home-image21"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm7-500h.jpeg"
+              alt="image"
+              className="home-image22"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm8-500h.jpeg"
+              alt="image"
+              className="home-image23"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm9-500h.jpeg"
+              alt="image"
+              className="home-image24"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pms3jpeg-500h.jpeg"
+              alt="image"
+              className="home-image25"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm16-500h.jpeg"
+              alt="image"
+              className="home-image26"
+            />
+            <img
+              src="/playground_assets/whatsapp%20image%202022-07-17%20at%2012.10.44%20pm2-500h.jpeg"
+              alt="image"
+              className="home-image27"
+            />
           </div>
         </div>
       </main>
       <h1 className="home-text71 heading2">
         <span>
-          Team
+          TEAM
           <span
             dangerouslySetInnerHTML={{
               __html: ' ',
             }}
           />
         </span>
-        <span className="home-text73">Talk</span>
+        <span className="home-text73">TALK</span>
       </h1>
       <div className="home-gallery">
-        <GalleryCard11
+        <GalleryCard12
           rootClassName="rootClassName"
           image_src="/playground_assets/loopyhammer-1500h.jpeg"
-          subtitle="Artisan Ape - Layer2 lover"
-          title="LoopKnight"
-        ></GalleryCard11>
-        <GalleryCard11
-          image_src="/playground_assets/butch-1500h.png"
+          subtitle="ARTISAN APE - LAYER2 LOVER"
+          title="LOOPKNIGHT"
+        ></GalleryCard12>
+        <GalleryCard12
+          image_src="/playground_assets/butcher-1500h.jpeg"
           rootClassName="rootClassName1"
-          subtitle="Crypto maxi &amp; Solidity savant"
-          title="Butch"
-        ></GalleryCard11>
-        <GalleryCard11
-          image_src="/playground_assets/tpr-1500h.png"
+          subtitle="CRYPTO MAXI &amp; SOLIDITY SAVANT"
+          title="BUTCH"
+        ></GalleryCard12>
+        <GalleryCard12
+          image_src="/playground_assets/trp-1500h.jpeg"
           rootClassName="rootClassName2"
-          title="TPR"
-          subtitle="Project memeing &amp; marketing head"
-        ></GalleryCard11>
+          subtitle="PROJECT MEMEING &amp; MARKETING HEAD"
+          title="TRP"
+        ></GalleryCard12>
       </div>
       <h1 className="home-text74 heading2">
-        <span>__________</span>
+        <span>___________</span>
       </h1>
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
